@@ -1,0 +1,28 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+    cout << "Test" << endl;
+
+    vector<int> nums = {5, 2, 8, 1, 9};
+
+    sort(nums.begin(), nums.end());
+
+    cout << "Sorted numbers: ";
+    for (int x : nums) {
+        cout << x << " ";
+    }
+    cout << endl;
+
+    int sum = 0;
+    for (int x : nums) {
+        sum += x;
+    }
+
+    cout << "Sum = " << sum << endl;
+
+    return 0;
+}
