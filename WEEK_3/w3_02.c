@@ -5,9 +5,9 @@ int main()
   float point;
   char name[20];
   printf("Enter your name : ");
-  scanf("%s",name);
+  scanf("%[^\n]",name);
   printf("Enter your point : ");
-  scanf("%f",&point);
+  scanf("%f", &point);
 
   printf("name : %s , point : %.1f\n " , name , point);
 
