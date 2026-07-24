@@ -11,7 +11,7 @@ int main() {
 
     volume = (1.0 / 3.0) * 3.14159 * radius * radius * height;
     //volume = (1.0 / 3.0) * (22.0 / 7.0)* radius * radius * height;
-    
+
     printf("Cone volume = %.1f cm3\n", volume);
 
     if (volume > 260) {
